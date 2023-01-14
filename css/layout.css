@@ -1,0 +1,54 @@
+/* LAYOUT */
+
+body {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding-block: 1.2rem;
+}
+
+header > ul {
+    display: flex;
+    gap: 1.5rem;
+    margin-right: -2rem;
+}
+
+.subscribe-button {
+    margin-left: -0.4rem;
+    padding: 0.6rem 1rem;
+}
+
+input {
+    border-width: 1px;
+}
+
+input[type="email"] {
+    margin-right: 0;
+    padding: 0.55rem 1rem;
+}
+
+header input[type="email"] {
+    width: 11.5ch;
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.main-nav {
+    padding: 1.2rem 1rem;
+}
+
+.main-nav ul {
+    display: flex;
+    justify-content: space-around;
+}

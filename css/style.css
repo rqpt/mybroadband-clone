@@ -1,0 +1,56 @@
+/* STYLE */
+
+#page {
+    border-top: 3px solid #2d3339;
+    background-color: white;
+}
+
+a, button {
+    cursor: pointer;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #393f44;
+    background-color: #f1f1f1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7,
+h8 {
+    color: #2d3339;
+}
+
+li {
+    list-style: none;
+}
+
+input {
+    border-style: solid;
+    border-color: #dddddd;
+}
+
+.subscribe-button {
+    background-color: #cc3333;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.subtle-bottom-border, 
+.poll li,
+.recommended div {
+    border-bottom: 1px solid #eeeeee;
+}
+
+.main-nav {
+    font-size: 0.9rem;
+    color: #2d3339;
+    font-weight: bold;
+    text-transform: uppercase;
+}
