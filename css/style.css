@@ -30,9 +30,8 @@ li {
     list-style: none;
 }
 
-input {
-    border-style: solid;
-    border-color: #dddddd;
+input, .social-media-buttons > * {
+    border: 1px solid #dddddd;
 }
 
 .subscribe-button {
@@ -48,9 +47,45 @@ input {
     border-bottom: 1px solid #eeeeee;
 }
 
+aside {
+    border-left: 1px solid #eeeeee;
+}
+
+aside h2 {
+    text-transform: uppercase;
+}
+
+aside h2::before, 
+footer h2::before,
+.latest-news-content-container h2::before,
+.partner-content-container h2::before {
+    position: absolute;
+    top: 0.5rem;
+    content:"";
+    height: 2px;
+    width: 3rem;
+    background-color: #2d3339;
+}
+
+footer h2::before {
+    background-color: white;
+}
+
 .main-nav {
     font-size: 0.9rem;
     color: #2d3339;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.social-media-buttons > * {
+    background-color: white;
+}
+
+footer, footer h2 {
+    color: white
+}
+
+footer {
+    background-color: #2b2d32;
 }

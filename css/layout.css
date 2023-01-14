@@ -5,6 +5,17 @@ body {
     margin: 0 auto;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7,
+h8 {
+    margin-bottom: 0;
+}
+
 ul {
     padding: 0;
     margin: 0;
@@ -24,18 +35,20 @@ header > ul {
     margin-right: -2rem;
 }
 
-.subscribe-button {
-    margin-left: -0.4rem;
+.email-subscription-form {
+    display: flex;
+}
+
+.email-subscription-form * {
     padding: 0.6rem 1rem;
 }
 
-input {
-    border-width: 1px;
+.email-subscription-form input {
+    margin-right: 0;
 }
 
-input[type="email"] {
-    margin-right: 0;
-    padding: 0.55rem 1rem;
+.email-subscription-form button {
+    margin-left: -0.4rem;
 }
 
 header input[type="email"] {
@@ -51,4 +64,79 @@ header input[type="email"] {
 .main-nav ul {
     display: flex;
     justify-content: space-around;
+}
+
+#main-aside-container {
+    display: grid;
+    grid-template-columns: 60% 30%;
+    gap: 2rem;
+}
+
+#page-left, aside {
+    padding-inline: 1.5rem;
+    margin-inline: auto;
+}
+
+aside {
+    padding-top: 3rem;
+}
+
+aside > section {
+    position: relative;
+}
+
+#mid-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.latest-news-content-container,
+.partner-content-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.aside-container, 
+.footer-content-container,
+.latest-news-content-container, 
+.partner-content-container {
+    position: relative;
+}
+
+.aside-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-media-buttons {
+    display: flex;
+    gap: 2rem;
+}
+
+.social-media-buttons * {
+    padding: 0.4rem;
+}
+
+.recommended {
+    gap: 0
+}
+
+.recommended > * {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding-block: 1rem;
+    margin-top: 0;
+}
+
+.recommended p {
+    margin: 0;
 }
