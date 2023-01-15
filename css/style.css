@@ -1,5 +1,18 @@
 /* STYLE */
 
+img:not(main img):hover {
+    filter: brightness(1.08);
+    transition: filter 200ms linear;
+}
+
+img:not(main img) {
+    filter: brightness(1);
+    transition: filter 200ms linear;
+}
+
+.recommended p {
+
+
 #page {
     border-top: 3px solid #2d3339;
     background-color: white;
