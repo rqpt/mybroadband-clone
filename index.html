@@ -39,25 +39,29 @@
             <div id="main-aside-container">
                 <div id="page-left">
                     <main>
-                        <section>
+                        <section class="main-content-section">
                             <h1>
-                                Expect fewer new TV series in the coming years
+                                Expect fewer new TV series in <br> the coming years
                                 --- Disney exec
                             </h1>
-                            <span><a>Bloomberg</a></span>
-                            <span>13 January 2023</span>
-                            <img src="img/streaming-services.png" alt="Streaming services logos displayed on phone display">
-                            <div>
-                                <button type=""><i class="fa-brands fa-facebook-f"></i></button>
-                                <button type=""><i class="fa-brands fa-twitter"></i></button>
-                                <button type=""><i class="fa-brands fa-whatsapp"></i></button>
-                                <button type=""><i class="fa-solid fa-envelope"></i></button>
-                                <button type=""><i class="fa-brands fa-linkedin-in"></i></button>
+                            <div class="container">
+                                <span><a>Bloomberg</a></span>
+                                <span>13 January 2023</span>
                             </div>
-                            <form class="email-subscription-form">
-                                <input type="email" name="email" value="" placeholder="Your email address">
-                                <button class="subscribe-button">Subscribe</button>
-                            </form>
+                            <img class="main-img" src="img/streaming-services.png" alt="Streaming services logos displayed on phone display">
+                            <div class="social-media-email-container">
+                                <div class="social-media-buttons-coloured">
+                                    <button class="facebook-color" type=""><i class="fa-brands fa-facebook-f"></i></button>
+                                    <button class="twitter-color" type=""><i class="fa-brands fa-twitter"></i></button>
+                                    <button class="whatsapp-color" type=""><i class="fa-brands fa-whatsapp"></i></button>
+                                    <button class="envelope-color" type=""><i class="fa-solid fa-envelope"></i></button>
+                                    <button class="linkedin-color" type=""><i class="fa-brands fa-linkedin-in"></i></button>
+                                </div>
+                                <form class="email-subscription-form">
+                                    <input type="email" name="email" value="" placeholder="Your email address">
+                                    <button class="subscribe-button">Subscribe</button>
+                                </form>
+                            </div>
                         </section>
                         <section class="| subtle-bottom-border">
                             <p>
@@ -115,33 +119,41 @@
                         </section>
                     </main>
                     <section>
-                        <section class="| subtle-bottom-border">
+                        <section class="next-article-section | subtle-bottom-border">
                             <p>
                             Now read: <a>Goodbye TV licence - ANC wants a 
                                 new tax</a>
                             </p>
                         </section>
                         <section>
-                            <button type="">Disney</button>
-                            <button type="">John Landgraf</button>
-                            <button type="">TV Shows</button>
-                            <button type="">Video Streaming Services</button>
-                            <button type="">Walt Disney</button>
-                            <button type=""><i class="fa-brands fa-square-facebook"></i>Share on Facebook</button>
-                            <button type=""><i class="fa-brands fa-twitter"></i>Share on Twitter</button>
-                            <button type="">
-                                Share your thoughts: Expect fewer new TV series in the co...
-                                <i class="fa-solid fa-greater-than"></i>
-                            </button>
-                            <p>Subscribe to our daily newsletter</p>
-                            <form class="email-subscription-form">
-                                <input type="email" name="email" value="" placeholder="Your email address">
-                                <button class="subscribe-button">Subscribe</button>
-                            </form>
+                            <div class="tag-section">
+                                <button type="">Disney</button>
+                                <button type="">John Landgraf</button>
+                                <button type="">TV Shows</button>
+                                <button type="">Video Streaming Services</button>
+                                <button type="">Walt Disney</button>
+                            </div>
+                            <div class="social-media-section">
+                                <div class="container">
+                                    <button type="" class="facebook-color"><i class="fa-brands fa-square-facebook"></i> Share on Facebook</button>
+                                    <button type="" class="twitter-color"><i class="fa-brands fa-twitter"></i> Share on Twitter</button>
+                                </div>
+                                <button type="">
+                                    Share your thoughts: Expect fewer new TV series in the co...
+                                    <i class="fa-solid fa-greater-than"></i>
+                                </button>
+                            </div>
+                            <div class="main-subscription-form">
+                                <p>Subscribe to our daily newsletter</p>
+                                <form class="email-subscription-form">
+                                    <input type="email" name="email" value="" placeholder="Your email address">
+                                    <button class="subscribe-button">Subscribe</button>
+                                </form>
+                            </div>
                         </section>
                     </section>
                     <section>
-                        <section id="mid-section">
+                        <div id="mid-section1">
                             <h2>Latest News</h2>
                             <div class="latest-news-content-container">
                                 <div>
@@ -170,40 +182,42 @@
                                     </p>
                                 </div>
                             </div>
-                            <h2>Partner Content</h2>
-                            <div class="partner-content-container">
-                                <div>
-                                    <img src="img/very-influential.png" alt="Person holding a book">
-                                    <p>
-                                    How to reach South 
-                                    Africa's most 
-                                    influential business 
-                                    leaders
-                                    </p>
-                                </div>
-                                <div>
-                                    <img src="img/solar-resolution.png" alt="Man and child playing with a small model house outside">
-                                    <p>
-                                    Solar is the one New 
-                                    Year's resolution you 
-                                    can keep - for the 
-                                    sake of your well- 
-                                    being, your pocket
-                                    and the planet!
-                                    </p>
-                                </div>
-                                <div>
-                                    <img src="img/mtn-microsoft-partnership.png" alt="Business people having a meeting around a table">
-                                    <p>
-                                    MTN's partnership 
-                                    with Microsoft is key 
-                                    to its evolution from 
-                                    Telco to TechCo
-                                    </p>
+                            <div id="mid-section2">
+                                <h2>Partner Content</h2>
+                                <div class="partner-content-container">
+                                    <div>
+                                        <img src="img/very-influential.png" alt="Person holding a book">
+                                        <p>
+                                        How to reach South 
+                                        Africa's most 
+                                        influential business 
+                                        leaders
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <img src="img/solar-resolution.png" alt="Man and child playing with a small model house outside">
+                                        <p>
+                                        Solar is the one New 
+                                        Year's resolution you 
+                                        can keep - for the 
+                                        sake of your well- 
+                                        being, your pocket
+                                        and the planet!
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <img src="img/mtn-microsoft-partnership.png" alt="Business people having a meeting around a table">
+                                        <p>
+                                        MTN's partnership 
+                                        with Microsoft is key 
+                                        to its evolution from 
+                                        Telco to TechCo
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                             <button type="">Show Comments</button>
-                        </section>
+                        </div>
                     </section>
                 </div>
                 <aside>

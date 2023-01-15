@@ -5,7 +5,8 @@
     background-color: white;
 }
 
-a, button {
+a,
+button {
     cursor: pointer;
 }
 
@@ -13,6 +14,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #393f44;
     background-color: #f1f1f1;
+}
+
+
+h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
 }
 
 h1,
@@ -30,7 +38,9 @@ li {
     list-style: none;
 }
 
-input, .social-media-buttons > * {
+input,
+.social-media-buttons > *,
+.tag-section button {
     border: 1px solid #dddddd;
 }
 
@@ -51,14 +61,16 @@ aside {
     border-left: 1px solid #eeeeee;
 }
 
-aside h2 {
+aside h2,
+#mid-section1 h2, 
+#mid-section2 h2 {
     text-transform: uppercase;
 }
 
 aside h2::before, 
 footer h2::before,
-.latest-news-content-container h2::before,
-.partner-content-container h2::before {
+#mid-section1 h2::before,
+#mid-section2 h2::before {
     position: absolute;
     top: 0.5rem;
     content:"";
@@ -78,14 +90,87 @@ footer h2::before {
     text-transform: uppercase;
 }
 
+.social-media-buttons-coloured * {
+    color: white;
+    border: none;
+}
+
 .social-media-buttons > * {
     background-color: white;
 }
 
-footer, footer h2 {
+footer,
+footer h2 {
     color: white
 }
 
-footer {
+.social-media-section button {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.tag-section button {
+    background-color: white;
+    text-transform: uppercase;
+    color: grey;
+    font-size: 0.7rem;
+}
+
+footer,
+.social-media-section > button {
+    color: white;
     background-color: #2b2d32;
+}
+
+.facebook-color {
+    background-color: #3b5998;
+}
+
+.whatsapp-color {
+    background-color: #1ebea5;
+}
+
+.linkedin-color {
+    background-color: #0077b5;
+}
+
+.envelope-color {
+    background-color: #bababa;
+}
+
+.twitter-color {
+    background-color: #55acee;
+}
+
+.poll form {
+    font-size: 1.2rem;
+}
+
+.poll button,
+#mid-section2 + button {
+    background-color: white;
+    border: 1px solid black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.poll button + a {
+    font-size: small;
+    color: grey;
+}
+
+.next-article-section * {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.next-article-section a {
+    color: #1173b4;
+}
+
+.footer-content-container li {
+    font-size: 1rem;
+    color: grey;
 }
