@@ -1,5 +1,9 @@
 /* STYLE */
 
+input:focus {
+    outline: none;
+}
+
 img:not(main img):hover {
     filter: brightness(1.08);
     transition: filter 200ms linear;
@@ -9,6 +13,14 @@ img:not(main img) {
     filter: brightness(1);
     transition: filter 200ms linear;
 }
+
+.latest-news-content-container p:hover,
+.partner-content-container p:hover,
+.recommended p:hover,
+.next-article-section a:hover {
+    text-decoration: underline;
+}
+
 
 #page {
     border-top: 3px solid #2d3339;
@@ -63,7 +75,7 @@ input,
 
 .subtle-bottom-border, 
 .poll li,
-.recommended div {
+.recommended a {
     border-bottom: 1px solid #eeeeee;
 }
 
@@ -112,6 +124,21 @@ footer h2::before {
 footer,
 footer h2 {
     color: white
+}
+
+.social-media-section button:hover,
+.social-media-buttons button:hover,
+.social-media-buttons-coloured button:hover,
+.poll button:hover,
+#mid-section2 + button:hover {
+    background-color: #2b2d32;
+    transition: background-color 200ms linear;
+}
+
+.social-media-buttons button:hover,
+.poll button:hover,
+#mid-section2 + button:hover {
+    color: white;
 }
 
 .social-media-section button {
@@ -166,9 +193,14 @@ footer,
     text-transform: uppercase;
 }
 
+.poll button + a:hover, 
+.footer-content-container li:hover {
+    opacity: 1;
+}
+
 .poll button + a {
     font-size: small;
-    color: grey;
+    opacity: 0.5;
 }
 
 .next-article-section * {
@@ -182,5 +214,14 @@ footer,
 
 .footer-content-container li {
     font-size: 1rem;
-    color: grey;
+    opacity: 0.6;
+}
+
+.subscribe-button:hover {
+    filter: brightness(0.8);
+}
+
+.main-content-section span {
+    font-size: 0.9rem;
+    opacity: 0.5;
 }
