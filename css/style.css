@@ -10,9 +10,6 @@ img:not(main img) {
     transition: filter 200ms linear;
 }
 
-.recommended p {
-
-
 #page {
     border-top: 3px solid #2d3339;
     background-color: white;
