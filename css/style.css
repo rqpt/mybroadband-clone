@@ -218,7 +218,7 @@ footer,
 }
 
 .subscribe-button:hover {
-    filter: brightness(0.8);
+    background-color: #a21a1a;
 }
 
 .main-content-section span {
